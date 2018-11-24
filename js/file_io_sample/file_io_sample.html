@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <span>* Multiple file selection sample</span><br>
+  <input type="file" id="fi" multiple/><br><br>
+  <span>* Multiple file drag and drop sample</span><br>
+  <div style="border:solid 1px; width:200px; height:100px" id="dropzone">
+    Drop files here!!
+  </div><br>
+  <span>* Result</span><br>
+  <textarea id="ta" style="width:200px; height:100px"></textarea>
+</body>
+<script>
+var fileInput = document.getElementById("fi");
+var dropzone = document.getElementById("dropzone");
+var textArea = document.getElementById("ta");
+
+dropzone.addEventListener('dragenter', function (e) {
+  e.preventDefault();
+});
+
+dropzone.addEventListener('dragover', function (e) {
+  e.preventDefault();
+});
+
+dropzone.addEventListener('drop', function (e) {
+  var files = e.dataTransfer.files;
+  readAllFiles(files);
+  e.preventDefault();
+});
+
+fileInput.addEventListener('change', function(evt) {
+  var files = evt.target.files;
+  readAllFiles(files);
+}, false);
+
+function readAllFiles(files) {
+  ta.value = "";
+  for(var i = 0; i < files.length; i++) {
+    var file = files[i];
+    var reader = new FileReader();
+    reader.onload = (function(nowFile) {
+      return function(ev) {
+        console.log(nowFile.name);
+        console.log(this.result);
+
+        ta.value = ta.value + "*** " + nowFile.name + " ***\n";
+        ta.value = ta.value + this.result + "\n";
+      };
+    })(file);
+    reader.readAsText(file);
+  }
+}
+</script>
+</html>
+
