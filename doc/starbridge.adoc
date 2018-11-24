@@ -20,7 +20,16 @@ ____
 
 ==== io_file
 
-* FileReaderでのファイル読み込み
+* ファイル読み込み
+
+==== io_get_file_list
+
+[WARNING]
+====
+JavaScriptではセキュリティ上の理由から実現不可能です。
+====
+
+* ファイル一覧の取得
 
 === UI Web
 
