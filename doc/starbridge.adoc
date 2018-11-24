@@ -13,29 +13,41 @@ ____
 Those who cannot remember the past are condemned to repeat it.
 ____
 
+== IO
 
-== Case specific
+=== File
 
-=== IO
+==== Read
 
-==== io_file
+ファイルの読み込み
 
-* ファイル読み込み
+* js_sample001
 
-==== io_get_file_list
+==== Get file list
 
 [WARNING]
 ====
-JavaScriptではセキュリティ上の理由から実現不可能です。
+一部言語ではセキュリティ上の理由から実現不可能です。
 ====
 
-* ファイル一覧の取得
+ファイル一覧の取得
 
-=== UI Web
+==== Write
 
-==== ui_web_file
+[WARNING]
+====
+一部言語ではセキュリティ上の理由から実現不可能です。
+====
 
-* ファイル選択コントロールとドラッグアンドドロップ
+ファイルの書き込み
+
+== UI(Web)
+
+=== File
+
+ファイル選択コントロールとドラッグアンドドロップ
+
+* js_sample001
 
 ////
 
@@ -85,11 +97,7 @@ DB設計とRubyでのWebアプリケーション開発の学習を目的に開�
 
 === Machine Learning
 
-////
 
-== Language specific
-
-////
 === C/C++
 
 ==== dxlib_template
@@ -173,9 +181,5 @@ Physics library.
 
 ////
 
-=== JavaScript
-
-* <<io_file>>
-* <<ui_web_file>>
 
 
