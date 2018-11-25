@@ -99,9 +99,15 @@ Physics library.
 
 ==== file_io
 
-ファイル選択コントロールとドラッグアンドドロップでのファイル読み込みのサンプル。
+include::js_file_io.adoc[]
 
 == Case specific
+
+=== File IO
+
+==== js:file_io
+
+
 
 ////
 
