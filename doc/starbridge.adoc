@@ -1,5 +1,5 @@
 
-= codelib documentation
+= starbrige code library documentation
 kedama
 :doctype: book
 :encoding: utf-8
