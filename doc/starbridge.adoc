@@ -22,7 +22,7 @@ ____
 
 * FileReaderでのファイル読み込み
 
-=== UI(Web)
+=== UI Web
 
 ==== ui_web_file
 
