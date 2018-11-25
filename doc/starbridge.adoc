@@ -21,7 +21,7 @@ ____
 
 ファイルの読み込み
 
-* js_sample001
+* link:../src/js_sample001/js_sample001.html[js_sample001]
 
 ==== Get file list
 
@@ -41,13 +41,19 @@ ____
 
 ファイルの書き込み
 
+==== Download
+
+ファイルのダウンロード
+
+* link:../src/js_sample002/js_sample002.html[js_sample002]
+
 == UI(Web)
 
 === File
 
 ファイル選択コントロールとドラッグアンドドロップ
 
-* js_sample001
+* link:../src/js_sample001/js_sample001.html[js_sample001]
 
 ////
 

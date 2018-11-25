@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<a href="#" id="lnkDownload">download</a>
+</body>
+<script>
+var lnkDownload = document.getElementById("lnkDownload");
+
+function setBlobUrl(elem, content) {
+	// Create blob.
+	var blob = new Blob([ content ], { "type" : "application/x-msdownload" });
+
+	// Set href.
+	window.URL = window.URL || window.webkitURL;
+	elem.href = window.URL.createObjectURL(blob);
+	elem.download = "sample.txt";
+}
+
+setBlobUrl(lnkDownload, "this is sample text file");
+</script>
+</html>
+
