@@ -8,10 +8,79 @@ kedama
 :toclevels: 3
 :numbered:
 
+[quote,George Santayana]
+____
+Those who cannot remember the past are condemned to repeat it.
+____
+
+
+== Case specific
+
+=== IO
+
+==== io_file
+
+* FileReaderでのファイル読み込み
+
+=== UI(Web)
+
+==== ui_web_file
+
+* ファイル選択コントロールとドラッグアンドドロップ
+
+////
+
+=== Business Application
+
+==== stak
+
+Ruby + Sinatra + Postgresで作成されたタスク管理アプリケーション。
+DB設計とRubyでのWebアプリケーション開発の学習を目的に開発された。
+
+=== Game Programming
+
+==== Vector calclulation
+
+[source,lisp]
+----
+(defmethod crpd ((a vector2) (b vector2))
+  "Calc cross-product of two vector2"
+  (- (* (x a) (y b)) (* (y a) (x b))))
+
+(defmethod dtpd ((a vector2) (b vector2))
+  "Calc dot-product of two vector2"
+  (+ (* (x a) (x b)) (* (y a) (y b))))
+----
+
+
+=== Simulation
+
+=== Text processing
+
+=== Machine Learning
+
+== Application specific
+
+=== Business Application
+
+==== stak
+
+Ruby + Sinatra + Postgresで作成されたタスク管理アプリケーション。
+DB設計とRubyでのWebアプリケーション開発の学習を目的に開発された。
+
+=== Game Programming
+
+=== Simulation
+
+=== Text processing
+
+=== Machine Learning
+
+////
 
 == Language specific
 
-
+////
 === C/C++
 
 ==== dxlib_template
@@ -93,70 +162,11 @@ Physics library.
 
 ==== swing template
 
-
+////
 
 === JavaScript
 
-==== file_io
-
-include::js_file_io.adoc[]
-
-== Case specific
-
-=== File IO
-
-==== js:file_io
-
-<<Language specific>>
-
-////
-
-=== Business Application
-
-==== stak
-
-Ruby + Sinatra + Postgresで作成されたタスク管理アプリケーション。
-DB設計とRubyでのWebアプリケーション開発の学習を目的に開発された。
-
-=== Game Programming
-
-==== Vector calclulation
-
-[source,lisp]
-----
-(defmethod crpd ((a vector2) (b vector2))
-  "Calc cross-product of two vector2"
-  (- (* (x a) (y b)) (* (y a) (x b))))
-
-(defmethod dtpd ((a vector2) (b vector2))
-  "Calc dot-product of two vector2"
-  (+ (* (x a) (x b)) (* (y a) (y b))))
-----
-
-
-=== Simulation
-
-=== Text processing
-
-=== Machine Learning
-
-== Application specific
-
-=== Business Application
-
-==== stak
-
-Ruby + Sinatra + Postgresで作成されたタスク管理アプリケーション。
-DB設計とRubyでのWebアプリケーション開発の学習を目的に開発された。
-
-=== Game Programming
-
-=== Simulation
-
-=== Text processing
-
-=== Machine Learning
-
-////
+* <<io_file>>
+* <<ui_web_file>>
 
 
