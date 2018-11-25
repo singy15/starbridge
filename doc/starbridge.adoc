@@ -97,7 +97,7 @@ Physics library.
 
 === JavaScript
 
-==== file_io_sample
+==== file_io
 
 ファイル選択コントロールとドラッグアンドドロップでのファイル読み込みのサンプル。
 
