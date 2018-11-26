@@ -19,7 +19,7 @@ ____
 
 ==== Check existence of a function
 
-* link:../src/cl_sample002/cl_sample002.html[cl_sample002]
+* link:../src/cl_sample002/cl_sample002.lisp[cl_sample002]
 
 == IO
 
