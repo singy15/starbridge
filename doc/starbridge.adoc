@@ -13,6 +13,13 @@ ____
 Those who cannot remember the past are condemned to repeat it.
 ____
 
+== General
+
+=== Function
+
+==== Check existence of a function
+
+
 == IO
 
 === File
