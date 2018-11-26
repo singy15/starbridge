@@ -22,7 +22,7 @@ ____
 ファイルの読み込み
 
 * link:../src/js_sample001/js_sample001.html[js_sample001]
-* link:../src/cl_sample001/cl_sample001.html[cl_sample001]
+* link:../src/cl_sample001/cl_sample001.lisp[cl_sample001]
 
 ==== Get file list
 
