@@ -22,6 +22,10 @@
 
 * lisp-unitのサンプル
 
+### rove-sample
+
+* roveのサンプル
+
 ## JavaScript
 
 ### js_sample001
