@@ -38,6 +38,10 @@
 
 * mitoのサンプル
 
+### sxql-sample
+
+* sxqlのサンプル
+
 ## JavaScript
 
 ### js_sample001
