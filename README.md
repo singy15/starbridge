@@ -30,6 +30,10 @@
 
 * cl-charmsのサンプル
 
+### cl-sqlite-sample
+
+* cl-sqliteのサンプル
+
 ## JavaScript
 
 ### js_sample001
