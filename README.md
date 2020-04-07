@@ -1,82 +1,92 @@
 # starbrige
 
-## Common Lisp
+The starbridge code library.
 
-### cl_sample001
+> "Those who cannot remember the past are condemned to repeat it."
+> *George Santayana*
 
-* ファイルの読み込み
 
-### cl_sample002
 
-* 関数の存在を調べる
+## Subjective-basis
 
-### sikisai-temple
+### Check existence of function
 
-* sikisaiのテンプレートプロジェクト
+- cl_sample002
 
-### fiveam-sample
+## Read text file
 
-* fiveamのサンプル
+- cl_sample001
+- js_sample001
 
-### lisp-unit-sample
+### Drag and drop
 
-* lisp-unitのサンプル
+- js_sample001
 
-### rove-sample
+### File selection dialog
 
-* roveのサンプル
+- js_sample001
 
-### cl-charms-sample
+### File downloading
 
-* cl-charmsのサンプル
+- js_sample002
 
-### cl-sqlite-sample
 
-* cl-sqliteのサンプル
 
-### mito-sample
+## Technology-basis
 
-* mitoのサンプル
+### Sikisai
 
-### sxql-sample
+- sikisai-template
 
-* sxqlのサンプル
+### Fiveam
 
-### datafly-sample
+- fiveam-sample
 
-* dataflyのサンプル
+### lisp-unit
 
-## JavaScript
+- lisp-unit-sample
 
-### js_sample001
+### rove
 
-* ファイルの読み込み
-* ファイル選択コントロールとドラッグアンドドロップ
+- rove-sample
 
-### js_sample002
+### cl-charms
 
-* ファイルのダウンロード
+- cl-charms-sample
 
-## Java
+### cl-sqlite
 
-### jr_sample
+- cl-sqlite-sample
 
-* JasperReportsのサンプル
+### mito
 
-### mybatis-sample
+- mito-sample
 
-* Mybatisのサンプル
+### sxql
 
-### jmockit-sample
+- sxql-sample
 
-* JMockitのサンプル
+### datafly
 
-### spring-properties-sample
+- datafly-sample
 
-* Springのサンプル
+### JasperReports
 
-## Node.js
+- jr_sample
 
-### electron-template
+### MyBatis
 
-* Electronのサンプル
+- mybatis-sample
+
+### JMockit
+
+- jmockit-sample
+
+### Spring
+
+- spring-properties-sample
+
+### Electron
+
+- electron-template
+
